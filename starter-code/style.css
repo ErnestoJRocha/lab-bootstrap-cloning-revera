@@ -1,0 +1,117 @@
+.navbar-collapse {
+  justify-content: center;
+}
+
+.navbar-brand {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.d-block {
+  filter: grayscale(100%);
+}
+
+.carousel-control-prev {
+  justify-content: space-between;
+}
+
+.carousel-control-next {
+  justify-content: end;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-color: rgb(237, 86, 75);
+  height: 100px;
+  width: 60px;
+}
+
+.carousel-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 1;
+  color: white;
+}
+
+.redBar {
+  height: auto;
+  background-color: rgb(237, 86, 75);
+  position: relative;
+  top: 50%;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.redBarContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.redBarContent > h3 {
+  margin-top: 20px;
+  color: white;
+}
+
+.redBarContent > p {
+  text-align: center;
+  color: white;
+}
+
+.redRow {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.bottomContainer {
+  margin-top: 50px;
+}
+
+.bottomRow1 > h3,
+.bottomRow3 > h3 {
+  font-weight: bolder;
+}
+
+.bottomRow1 > p,
+.bottomRow3 > p {
+  color: grey;
+  font-weight: bold;
+}
+
+.images {
+  max-width: 250px;
+  height: auto;
+  width: 100%;
+}
+
+.bottomRow2,
+.bottomRow4 {
+  margin-top: 20px;
+}
+
+.bottomRow2Text {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.bottomRow3 {
+  margin-top: 60px;
+}
+
+.articleTitle {
+  margin-top: 15px;
+}
+
+.redStyle {
+  color: red;
+}
+
+.postedOn {
+  font-size: x-small;
+  font-weight: bold;
+}
